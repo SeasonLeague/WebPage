@@ -25,16 +25,6 @@
   transition:cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 
-.logo{
-  color: #ff7200;
-  font-size: 35px;
-  font-family: Arial;
-  padding-left: 20px;
-  float: left;
-  padding-top: 10px;
-  margin-top: 5px
-}
-
 .menu{
   width: 400px;
   float: left;
