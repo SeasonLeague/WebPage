@@ -5,7 +5,7 @@
 
 .main{
   width: 100%;
-  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(/images/1.jpg);
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(/images/edited_7.png);
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -21,6 +21,7 @@
   width: 200px;
   float: left;
   height: 70px;
+  transition:cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 
 .logo{
@@ -245,9 +246,14 @@ ul li a:hover{
   color: #ff7200;
 }
 .liw{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
   padding-top: 15px;
   padding-bottom: 10px;
   text-align: center;
+  transform: matrix3d();
+  transition: all;
+  line-height: normal;
 }
 .icons a{
   text-decoration: none;
