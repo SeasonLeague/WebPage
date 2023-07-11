@@ -1,20 +1,30 @@
-
+@media only screen and (max-width: 600px) {
+  .main{
+    width: 122%;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(./images/edited_6.jpg);
+    background-position: center;
+    background-color: black;
+    background-size: auto;
+    height: 100vh;
+  }
+}
 *{
   margin: 0;
   padding: 0;
 }
 
 .main{
-  width: 100%;
+  width: 122%;
   background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(./images/edited_6.jpg);
   background-position: center;
-  background-size: cover;
+  background-color: black;
+  background-size: auto;
   height: 100vh;
 }
 
 .navbar{
   width: 1200px;
-  height: 75px;
+  height: 150px;
   margin: auto;
 }
 
@@ -34,7 +44,7 @@
 ul{
   float: left;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 
