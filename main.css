@@ -67,9 +67,9 @@ ul li a:hover{
   width: 200px;
   height: 40px;
   background: transparent;
-  border: 1px solid #ff7200;
+  border: 1px solid #dc7522;
   margin-top: 13px;
-  color: #fff;
+  color: #000000;
   border-right: none;
   font-size: 16px;
   float: left;
@@ -81,12 +81,11 @@ ul li a:hover{
 .btn{
   width: 100px;
   height: 40px;
-  background: #ff7200;
-  border: 2px solid #ff7200;
+  background: #e49350;
+  border: 2px solid #070706;
   margin-top: 13px;
-  color: #fff;
+  color: #f7f2f2;
   font-size: 15px;
-  border-bottom-right-radius: 5px;
   border-bottom-right-radius: 5px;
   transition: 0.2s ease;
   cursor: pointer;
@@ -109,13 +108,15 @@ ul li a:hover{
   margin: auto;
   color: #fff;
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .content .par{
   padding-left: 20px;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
   font-family: Arial;
-  letter-spacing: 1.2px;
+  letter-spacing: 1.1px;
   line-height: 30px;
 }
 
@@ -130,12 +131,12 @@ ul li a:hover{
 .content .cn{
   width: 160px;
   height: 40px;
-  background: #ff7200;
+  background: hsl(27, 75%, 62%);
   border: none;
   margin-bottom: 10px;
   margin-left: 20px;
-  font-size: 18px;
-  border-radius: 10px;
+  font-size: 20px;
+  border-radius: 15px;
   cursor: pointer;
   transition: .4s ease;
   
@@ -143,16 +144,16 @@ ul li a:hover{
 
 .content .cn a{
   text-decoration: none;
-  color: #000;
-  transition: .3s ease;
+  color: hsl(0, 3%, 28%);
+  transition: .6s ease;
 }
 
 .cn:hover{
-  background-color: #fff;
+  background-color: hsl(0, 37%, 37%);
 }
 
 .content span{
-  color: #ff7200;
+  color: hsl(0, 18%, 58%);
   font-size: 65px
 }
 
@@ -164,14 +165,14 @@ ul li a:hover{
   top: -20px;
   left: 870px;
   transform: translate(0%,-5%);
-  border-radius: 10px;
-  padding: 25px;
+  border-radius: 40px;
+  padding: 50px;
 }
 
 .form h2{
   width: 220px;
   font-family: sans-serif;
-  text-align: center;
+  text-align: center; 
   color: #ff7200;
   font-size: 22px;
   background-color: #fff;
@@ -200,7 +201,7 @@ ul li a:hover{
 }
 
 ::placeholder{
-  color: #fff;
+  color: hsl(0, 0%, 45%);
   font-family: Arial;
 }
 
@@ -257,5 +258,138 @@ ul li a:hover{
   transition: 0.3s ease;
 }
 .icons ion-icon:hover{
-  color: #ff7200;
+  color: hsl(0, 12%, 65%);
+}
+
+@media screen and (width <= 1200px) {
+  
+  .srch{
+    color: hsla(31, 100%, 50%, 0.819);
+    font-family: 'Times New Roman';
+    height: 40px;
+    border: 20px bold hsl(25, 47%, 27%);
+  }
+
+  .main{
+    width: 119%;
+    background-image: linear-gradient();
+    background-position: center;
+    background-size: cover;
+    height: 122vh;
+  }
+
+  .content .par{
+    padding-left: 30px;
+    padding-bottom: 40px;
+    font-family: 'Times New Roman', Times, Arial;
+    letter-spacing: 1.2px;
+    line-height: 40px;
+  }
+
+  .content span{
+    color: hsla(126, 98%, 49%, 0.826);
+    font-size: 50px
+  }
+}
+
+@media screen and (width <= 1024px) {
+  
+  .srch{
+    color: hsla(43, 91%, 53%, 0.819);
+    font-family: 'Times New Roman';
+    height: 40px;
+    border: 20px bold hsl(27, 82%, 4%);
+  }
+
+  .main{
+    width: 130%;
+    background-image: linear-gradient();
+    background-position: center;
+    background-size: cover;
+    height: 130vh;
+  }
+
+  .content .par{
+    padding-left: 30px;
+    padding-bottom: 40px;
+    font-family: 'Times New Roman', Times, Arial;
+    letter-spacing: 1.2px;
+    line-height: 40px;
+  }
+  
+  .content h1{
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 6px;
+  }
+
+  .content span{
+    color: hsla(222, 87%, 47%, 0.826);
+    font-size: 50px
+  }
+
+  .form{
+    width: 240px;
+    height: 400px;
+    background: linear-gradient(to top, hsla(0, 0%, 0%, 0.8)50%,hsla(0, 0%, 0%, 0.8)50%);
+    position: absolute;
+    top: -10px;
+    left: 800px;
+    transform: translate(0%,-5%);
+    border-radius: 50px;
+    padding: 60px;
+  }
+}
+
+
+@media screen and (width < 323px) {
+  
+  .srch{
+    color: hsla(43, 91%, 53%, 0.819);
+    font-family: 'Times New Roman';
+    height: 40px;
+    border: 50px bold hsl(27, 82%, 4%);
+  }
+
+  .main{
+    background-image: linear-gradient();
+    background-position: center;
+    background-size: cover;
+    height: 200vh;
+  }
+
+  .content .par{
+    padding-left: 500px;
+    padding-bottom: 40px;
+    font-family: 'Times New Roman', Times, Arial;
+    letter-spacing: 1.2px;
+    line-height: 40px;
+  }
+  
+  .content h1{
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 6px;
+  }
+
+  .content span{
+    color: hsla(0, 0%, 4%, 0.826);
+    font-size: 50px
+  }
+
+  .form{
+    width: 240px;
+    height: 400px;
+    background: linear-gradient(to top, hsla(0, 0%, 0%, 0.8)50%,hsla(0, 0%, 0%, 0.8)50%);
+    position: absolute;
+    top: -10px;
+    left: 800px;
+    transform: translate(0%,-5%);
+    border-radius: 50px;
+    padding: 60px;
+  }
 }
